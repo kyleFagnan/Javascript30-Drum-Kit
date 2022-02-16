@@ -1,8 +1,9 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./drums.jpg') bottom center;
   background-size: cover;
 }
+
 
 body,html {
   margin: 0;
@@ -13,7 +14,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 175vh;
   align-items: center;
   justify-content: center;
 }
@@ -27,15 +28,15 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
+  color: rgb(195, 245, 14);
+  background: rgba(10, 10, 10, 0.4);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ff4800;
+  box-shadow: 0 0 1rem rgb(195, 245, 14);
 }
 
 kbd {
@@ -47,5 +48,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #ff4800;
 }
